@@ -1,0 +1,628 @@
+@media (min-width: 320px) and (max-width: 480px){
+  .header-head .head-logo .logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .header-head .head-logo .logo img{
+    width: 80px;
+    height: 65px;
+    margin-left: 5px;
+  }
+
+  .header-head.login-signup .login{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .header-head .login a{
+    font-size: 8px;
+  }
+
+  .header-head .searchbox .input{
+    width: 0px;
+    border: 0px;
+    padding: 0px 11px;
+    height: 25px;
+    border-radius: 50px;
+    border: 1px solid #ffff00;
+    outline: none;
+    background-color: #eff1f0;
+    color: #42be11;
+    font-size: 15px;
+    transition: all 0.5s linear;
+  }
+  .header-head .searchbtn{
+    position: absolute;
+    top: 0;
+    right: -1px;
+    background: #ff0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s 0.6s linear;
+  }
+  .header-head .searchbtn .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #1155be;
+    font-size: 13px;
+    transition: all 0.5s 0.6s linear;
+  }
+  .header-head .searchbox .input.active-width{
+    width: 140px;
+  }
+  .header .header-head .wrapper{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .header .menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .header .menu .menu-item p{
+    padding: 5px;
+    font-size: 7px;
+    letter-spacing: 0px;
+  }
+  .header .menu .menu-item{
+    width: 100%;
+    height: 100%;
+    padding: 0.5px;
+  }
+
+  .content .icon-head{
+    --spacing: 10px;
+    --columns: 3;
+  }
+  .content .icon-head .icon-image {
+    height: 90px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content .cards{
+    --spacing: 15px;
+    --columns: 2;
+  }
+  .content .cards .card .card-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content .cards .card .card-content .card-top .card-title{
+    font-size: 15px;
+  }
+
+  .content span{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+
+  .footer-head .footer-column1 .footer-logo .logo2{
+    width: 100%;
+    height: 100%;
+  }
+  .footer-head .footer-column1 .footer-logo .logo2 img{
+    width: 100px;
+    height: 80px;
+  }
+  .footer-head .footer-column2 .footer-content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-head .footer-column2 .footer-content .footer-title .footer-links .footer-link{
+    font-size: 20px;
+    margin: 5px;
+  }
+  .footer-head .footer-column2 .footer-content .app-links{
+    text-align: center;
+    margin-right: 0px;
+  }
+  .footer-head .footer-column2 .footer-content .app-links img{
+    width: 150px;
+    height: 40px;
+  }
+  .footer-head .footer-column2 .footer-content .footer-title h3{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 0px;
+  }
+  .footer-head .footer-column2 h4{
+    font-size: 10px;
+  }
+
+  .content marquee {
+    width: 99%;
+    padding: 6px 0;
+    border: 1px solid #ffff00;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffff00;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .header-head .head-logo .logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .header-head .head-logo .logo img{
+    width: 100px;
+    height: 80px;
+    margin-left: 0px;
+  }
+
+  .header-head.login-signup .login{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .header-head .login a{
+    font-size: 10px;
+  }
+
+  .header-head .searchbox .input{
+    width: 0px;
+    border: 0px;
+    padding: 0px 13px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #ffff00;
+    outline: none;
+    background-color: #eff1f0;
+    color: #42be11;
+    font-size: 15px;
+    transition: all 0.5s linear;
+  }
+  .header-head .searchbtn{
+    position: absolute;
+    top: 0;
+    right: -1px;
+    background: #ff0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s 0.6s linear;
+  }
+  .header-head .searchbtn .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #1155be;
+    font-size: 15px;
+    transition: all 0.5s 0.6s linear;
+  }
+  .header-head .searchbox .input.active-width{
+    width: 200px;
+  }
+  .header .header-head .wrapper{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .header .menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .header .menu .menu-item p{
+    padding: 5px;
+    font-size: 11px;
+  }
+  .header .menu .menu-item{
+    width: 100%;
+    height: 100%;
+  }
+
+  .content .icon-head{
+    --spacing: 10px;
+    --columns: 3;
+  }
+  .content .icon-head .icon-image {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content span{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  .content .cards{
+    --spacing: 15px;
+    --columns: 3;
+  }
+  .content .cards .card .card-image {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content .cards .card .card-content .card-top .card-title{
+    font-size: 15px;
+  }
+
+  .footer-head .footer-column1 .footer-logo .logo2{
+    width: 100%;
+    height: 100%;
+  }
+  .footer-head .footer-column1 .footer-logo .logo2 img{
+    width: 100px;
+    height: 80px;
+  }
+  .footer-head .footer-column2 .footer-content .app-links{
+    text-align: center;
+    margin-right: 0px;
+  }
+  .footer-head .footer-column2 .footer-content .app-links img{
+    width: 160px;
+    height: 40px;
+  }
+  .footer-head .footer-column2 .footer-content .footer-title h3{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .footer-head .footer-column2 h4{
+    font-size: 11px;
+  }
+  .footer-head .footer-column2 .footer-content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-head .footer-column2 .footer-content .footer-title .footer-links .footer-link{
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .content marquee {
+    width: 99%;
+    padding: 8px 0;
+    border: 1.5px solid #ffff00;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffff00;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .header-head .head-logo .logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .header-head .head-logo .logo img{
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+  }
+
+  .header-head.login-signup .login{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .header-head .login a{
+    font-size: 12px;
+  }
+
+  .header-head .searchbox .input{
+    width: 0px;
+    border: 0px;
+    padding: 0px 16px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #ffff00;
+    outline: none;
+    background-color: #eff1f0;
+    color: #42be11;
+    font-size: 15px;
+    transition: all 0.5s linear;
+  }
+  .header-head .searchbtn{
+    position: absolute;
+    top: 0;
+    right: -1px;
+    background: #ff0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s 0.6s linear;
+  }
+  .header-head .searchbtn .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #1155be;
+    font-size: 17px;
+    transition: all 0.5s 0.6s linear;
+  }
+  .header-head .searchbox .input.active-width{
+    width: 300px;
+  }
+  .header .header-head .wrapper{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .header .menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .header .menu .menu-item{
+    width: 100%;
+    height: 100%;
+  }
+  .header .menu .menu-item p{
+    height: 100%;
+    padding: 6px;
+    font-size: 10px;
+    flex-wrap:nowrap ;
+    letter-spacing: 0px;
+  }
+
+  .content .icon-head{
+    --spacing: 13px;
+    --columns: 4;
+  }
+  .content .icon-head .icon-image {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content span{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  .content .cards{
+    --spacing: 15px;
+    --columns: 4;
+  }
+  .content .cards .card .card-image {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content .cards .card .card-content .card-top .card-title{
+    font-size: 15px;
+  }
+
+  .footer-head .footer-column1 .footer-logo .logo2{
+    width: 100%;
+    height: 100%;
+  }
+  .footer-head .footer-column1 .footer-logo .logo2 img{
+    width: 110px;
+    height: 90px;
+  }
+  .footer-head .footer-column2 .footer-content .app-links{
+    text-align: center;
+    margin-right: 0px;
+  }
+  .footer-head .footer-column2 .footer-content .app-links img{
+    width: 180px;
+    height: 50px;
+  }
+  .footer-head .footer-column2 .footer-content .footer-title h3{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .footer-head .footer-column2 h4{
+    font-size: 13px;
+  }
+  .footer-head .footer-column2 .footer-content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-head .footer-column2 .footer-content .footer-title .footer-links .footer-link{
+    font-size: 40px;
+    margin: 12px;
+  }
+
+  .content marquee {
+    width: 99%;
+    padding: 10px 0;
+    border: 2px solid #ffff00;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff00;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+  .header-head .head-logo .logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .header-head .head-logo .logo img{
+    width: 110px;
+    height: 90px;
+    margin-left: 10px;
+  }
+  .header-head.login-signup .login{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .header-head .login a{
+    font-size: 13px;
+  }
+  .header-head .searchbox .input{
+    width: 0px;
+    border: 0px;
+    padding: 0px 18px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #ffff00;
+    outline: none;
+    background-color: #eff1f0;
+    color: #42be11;
+    font-size: 15px;
+    transition: all 0.5s linear;
+  }
+  .header-head .searchbtn{
+    position: absolute;
+    top: 0;
+    right: -1px;
+    background: #ff0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s 0.6s linear;
+  }
+  .header-head .searchbtn .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #1155be;
+    font-size: 18px;
+    transition: all 0.5s 0.6s linear;
+  }
+  .header-head .searchbox .input.active-width{
+    width: 350px;
+  }
+  .header .header-head .wrapper{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .header .menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .header .menu .menu-item{
+    width: 100%;
+    height: 100%;
+  }
+  .header .menu .menu-item p{
+    height: 100%;
+    padding: 15px;
+    font-size: 12px;
+    flex-wrap:nowrap ;
+    letter-spacing: 0px;
+  }
+
+  .content .icon-head{
+    --spacing: 13px;
+    --columns: 6;
+  }
+  .content .icon-head .icon-image {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content span{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  .content .cards{
+    --spacing: 15px;
+    --columns: 5;
+  }
+  .content .cards .card .card-image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .content .cards .card .card-content .card-top .card-title{
+    font-size: 15px;
+  }
+
+  .footer-head .footer-column1 .footer-logo .logo2{
+    width: 100%;
+    height: 100%;
+  }
+  .footer-head .footer-column1 .footer-logo .logo2 img{
+    width: 120px;
+    height: 100px;
+  }
+  .footer-head .footer-column2 .footer-content .app-links{
+    text-align: center;
+    margin-right: 0px;
+  }
+  .footer-head .footer-column2 .footer-content .app-links img{
+    width: 220px;
+    height: 55px;
+  }
+  .footer-head .footer-column2 .footer-content .footer-title h3{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .footer-head .footer-column2 h4{
+    font-size: 13px;
+  }
+  .footer-head .footer-column2 .footer-content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-head .footer-column2 .footer-content .footer-title .footer-links .footer-link{
+    font-size: 40px;
+    margin: 16px;
+  }
+  .content marquee {
+    width: 99%;
+    padding: 10px 0;
+    border: 2px solid #ffff00;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff00;
+  }
+}
